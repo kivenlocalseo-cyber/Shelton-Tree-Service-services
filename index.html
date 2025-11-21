@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="title" content="What Factors Affect Crane Service Costs?">
+  <meta name="description" content="Understanding the factors that influence crane service costs for construction and tree projects in Greensboro NC.">
+  <meta name="keywords" content="crane service, crane costs, tree service, construction, equipment rental, Greensboro NC">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="">
+  <title>What Factors Affect Crane Service Costs?</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    * { 
+      margin: 0; 
+      padding: 0; 
+      box-sizing: border-box; 
+    }
+    
+    body {
+      font-family: 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f8f9fa;
+      padding: 20px;
+      color: #333;
+      line-height: 1.7;
+      font-weight: 400;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    .header-section {
+     background: linear-gradient(135deg, #004d00 0%, #2f6f00 45%, #ffd700 100%);
+      color: white;
+      padding: 40px 30px;
+      text-align: center;
+      margin-bottom: 40px;
+      border-radius: 12px;
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .header-section::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+     background: linear-gradient(135deg, #004d00 0%, #2f6f00 45%, #ffd700 100%);
+    }
+    
+    .brand-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    
+    .brand-logo {
+      width: 80px;
+      height: 80px;
+      margin-right: 20px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+      transition: all 0.4s ease;
+      overflow: hidden;
+      background: white;
+      border: 3px solid #2d6a2d;
+    }
+    
+    .brand-logo:hover {
+      transform: scale(1.1) rotate(5deg);
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    }
+    
+    .brand-logo img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      padding: 5px;
+    }
+    
+    .brand-text {
+      text-align: left;
+    }
+    
+    .brand-name {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2.4rem;
+      font-weight: 700;
+      margin: 0;
+      line-height: 1;
+      color: white;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+      letter-spacing: 1px;
+    }
+    
+    .brand-tagline {
+      font-size: 1.1rem;
+      opacity: 0.9;
+      margin-top: 8px;
+      color: #c8f7c5;
+      font-weight: 500;
+    }
+    
+    .header-section h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2.5rem;
+      margin: 15px 0;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+      font-weight: 700;
+      color: white;
+      line-height: 1.2;
+    }
+    
+    .intro-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      margin-bottom: 40px;
+    }
+    
+    .intro-text {
+      flex: 1;
+      min-width: 300px;
+      background: white;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+      border-top: 5px solid #2d6a2d;
+      position: relative;
+    }
+    
+    .intro-text::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 4px;
+     background: linear-gradient(135deg, #004d00 0%, #2f6f00 45%, #ffd700 100%);
+      border-radius: 0 0 12px 12px;
+    }
+    
+    .intro-image {
+      flex: 1;
+      min-width: 300px;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+      border-top: 5px solid #2d6a2d;
+      transition: all 0.4s ease;
+    }
+    
+    .intro-image:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+    }
+    
+    .intro-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.7s ease;
+    }
+    
+    .intro-image img:hover {
+      transform: scale(1.05);
+    }
+    
+    .section {
+      background: white;
+      padding: 40px;
+      margin-bottom: 35px;
+      border-radius: 12px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+      border-left: 5px solid #2d6a2d;
+      position: relative;
+    }
+    
+    .section::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 4px;
+      background: linear-gradient(135deg, #004d00 0%, #2f6f00 45%, #ffd700 100%);
+      border-radius: 12px 12px 0 0;
+    }
+    
+    .section:hover {
+      transform: translateY(-7px);
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+    }
+    
+    .section h2 {
+      color: #1a3d1a; 
+      margin-bottom: 25px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.8rem;
+      padding-bottom: 15px;
+      border-bottom: 2px solid #2d6a2d;
+      display: flex;
+      align-items: center;
+      font-weight: 600;
+    }
+    
+    .section h2 i {
+      margin-right: 18px;
+      color: white;
+     background: linear-gradient(135deg, #004d00 0%, #2f6f00 45%, #ffd700 100%);
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 10px rgba(26, 61, 26, 0.3);
+    }
+    
+    .section p {
+      color: #555;
+      line-height: 1.8;
+      margin-bottom: 20px;
+      font-size: 1.08rem;
+    }
+    
+    .section ul {
+      margin-left: 25px;
+      margin-bottom: 20px;
+    }
+    
+    .section li {
+      margin-bottom: 10px;
+      position: relative;
+      padding-left: 10px;
+    }
+    
+    .section li::before {
+      content: '•';
+      color: #1a3d1a;
+      font-weight: bold;
+      position: absolute;
+      left: -15px;
+    }
+    
+    .conclusion-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      margin-bottom: 40px;
+    }
+    
+    .conclusion-container h2 {
+      color: #1a3d1a;
+      font-family: 'Montserrat', sans-serif;
+    }
+    
+    .conclusion-text {
+      flex: 1;
+      min-width: 300px;
+      background: white;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+      border-top: 5px solid #2d6a2d;
+      position: relative;
+    }
+    
+    .conclusion-text::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 4px;
+      background: linear-gradient(135deg, #004d00 0%, #2f6f00 45%, #ffd700 100%);
+      border-radius: 0 0 12px 12px;
+    }
+    
+    .conclusion-map {
+      flex: 1;
+      min-height: 350px;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+      border-top: 5px solid #2d6a2d;
+      transition: all 0.4s ease;
+    }
+    
+    .conclusion-map:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+    }
+    
+    .conclusion-map iframe {
+      width: 100%;
+      height: 100%;
+      min-height: 350px;
+      border: none;
+    }
+    
+    .benefits-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      margin-top: 30px;
+    }
+  
+    .footer {
+      text-align: center;
+      padding: 40px 30px;
+      margin-top: 50px;
+      color: #666;
+      font-size: 0.95rem;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+      border-top: 5px solid #3e8c3e;
+      position: relative;
+    }
+    
+    .footer::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 4px;
+      background: linear-gradient(135deg, #004d00 0%, #2f6f00 45%, #ffd700 100%);
+      border-radius: 12px 12px 0 0;
+    }
+    
+    .footer a {
+      color: #2d6a2d;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+    
+    .footer a:hover {
+      color: #1a3d1a;
+      text-decoration: underline;
+    }
+    
+    .contact-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin: 25px 0;
+      flex-wrap: wrap;
+    }
+    
+    .contact-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 14px 25px;
+      background: #2d6a2d;
+      color: white;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.4s ease;
+      box-shadow: 0 5px 15px rgba(26, 61, 26, 0.3);
+      font-family: 'Montserrat', sans-serif;
+    }
+    
+    .contact-btn:hover {
+      background: linear-gradient(135deg, #004d00 0%, #2f6f00 45%, #ffd700 100%);
+      color: white;
+      box-shadow: 0 8px 20px rgba(26, 61, 26, 0.4);
+    }
+    
+    .contact-btn.phone {
+      background: linear-gradient(135deg, #004d00 0%, #2f6f00 45%, #ffd700 100%);
+      color: white;
+      box-shadow: 0 5px 15px rgba(26, 61, 26, 0.3);
+    }
+    
+    .contact-btn.email {
+      background: linear-gradient(135deg, #004d00 0%, #2f6f00 45%, #ffd700 100%);
+      color: white;
+      box-shadow: 0 5px 15px rgba(62, 140, 62, 0.3);
+    }
+    
+    .contact-btn.email:hover {
+      background: linear-gradient(135deg, #004d00 0%, #2f6f00 45%, #ffd700 100%);
+      color: white;
+      box-shadow: 0 8px 20px rgba(62, 140, 62, 0.4);
+    }
+    
+    .stats-container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin: 40px 0;
+      gap: 20px;
+    }
+    
+    .stat-item {
+      text-align: center;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+      flex: 1;
+      min-width: 200px;
+      transition: transform 0.3s ease;
+      border-top: 4px solid #2d6a2d;
+    }
+    
+    .stat-item:hover {
+      transform: translateY(-5px);
+    }
+    
+    .stat-number {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #1a3d1a;
+      margin-bottom: 10px;
+    }
+    
+    .stat-label {
+      font-size: 1rem;
+      color: #555;
+    }
+    
+    .section a {
+      color: #2d6a2d;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+    
+    .section a:hover {
+      color: #1a3d1a;
+      text-decoration: underline;
+    }
+    
+    @media (max-width: 768px) {
+      .header-section h1 {
+        font-size: 2rem;
+      }
+      
+      .brand-name {
+        font-size: 2rem;
+      }
+      
+      .brand-logo {
+        width: 70px;
+        height: 70px;
+      }
+      
+      .intro-container, .conclusion-container {
+        flex-direction: column;
+      }
+      
+      .section h2 {
+        font-size: 1.6rem;
+      }
+      
+      .section h2 i {
+        width: 45px;
+        height: 45px;
+        font-size: 0.9em;
+      }
+      
+      .contact-buttons {
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .contact-btn {
+        width: 100%;
+        max-width: 280px;
+        justify-content: center;
+      }
+      
+      .stats-container {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <div class="container header-section">
+    <div class="brand-container">
+      <div class="brand-logo">
+        <img src="https://sheltontreeservice.us/wp-content/uploads/2025/09/logo.png" alt="Tree Service Logo">
+      </div>
+      <div class="brand-text">
+        <h1 class="brand-name">Shelton Tree Service</h1>
+        <div class="brand-tagline">Professional Crane & Tree Services in Greensboro NC</div>
+      </div>
+    </div>
+    <h1>What Factors Affect Crane Service Costs?</h1>
+    <p style="max-width: 800px; margin: 15px auto 0; font-size: 1.2rem; opacity: 0.9;">Understanding the Key Factors That Influence Crane Service Pricing for Your Project</p>
+  </div>
+
+  <!-- Introduction Section with Image -->
+  <div class="container intro-container">
+    <div class="intro-text">
+      <p>Crane work is essential for many types of outdoor and construction projects, but the cost can vary widely depending on the situation, equipment needs, and job complexity. Homeowners and businesses often reach out for a <a href="https://sheltontreeservice.us/" style="color: #1a3d1a;"><strong>Shelton Tree Service in Greensboro NC</strong></a> without realizing how many factors influence the final price. Understanding these details can help you plan your project more effectively, avoid unexpected charges, and choose a service provider with confidence. Whether the task involves lifting heavy materials, supporting structural work, or assisting with complex tree projects, knowing what affects crane service costs leads to better decisions and smoother project outcomes.</p>
+    </div>
+    <div class="intro-image">
+      <img src="https://avatars.mds.yandex.net/i?id=73412d866697d01fc02538e1328ad5b2a742fffc-11514424-images-thumbs&n=13" alt="Crane Service Project"/>
+    </div>
+  </div>
+
+  <!-- Statistics Section -->
+  <div class="container">
+    <div class="stats-container">
+      <div class="stat-item">
+        <div class="stat-number">10+</div>
+        <div class="stat-label">Types of Cranes Available</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">24/7</div>
+        <div class="stat-label">Emergency Service Available</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">100%</div>
+        <div class="stat-label">Safety Record</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Understanding the Scope of the Project Section -->
+  <div class="container section">
+    <h2><i class="fas fa-project-diagram"></i> Understanding the Scope of the Project</h2>
+    <p>The cost of crane service begins with understanding the full scope of the project. Every job is different, and the type of lift, the weight of materials, and the required height all contribute to the overall pricing. A small residential project involving material placement will cost differently than a large commercial lift requiring advanced rigging. When customers search for Tree Service near me or Crane service in Greensboro NC, they often discover that the details of their project heavily influence the final estimate. Defining the scope early helps crane operators select the right equipment and workforce, ultimately affecting cost and efficiency.</p>
+  </div>
+
+  <!-- Weight and Size of the Load Section -->
+  <div class="container section">
+    <h2><i class="fas fa-weight-hanging"></i> Weight and Size of the Load</h2>
+    <p>One of the most significant cost factors is the weight and size of the object being lifted. Heavy or oversized loads require cranes with more lifting capacity, which typically cost more to operate. Specialized rigging may also be needed to secure awkward or uneven loads safely. For example, when a crane assists with <strong><a href=" ">Tree Removal in Greensboro NC</a></strong>, the size of the tree trunk sections determines whether a standard crane suffices or if a larger machine is needed. Heavier loads require more fuel, more advanced equipment, and more experienced operators, all of which influence the total cost.</p>
+  </div>
+
+  <!-- Height and Reach Requirements Section -->
+  <div class="container section">
+    <h2><i class="fas fa-arrows-alt-v"></i> Height and Reach Requirements</h2>
+    <p>The height and distance a crane must reach can greatly affect the pricing. Jobs on tall structures, steep lots, or properties with obstacles require cranes with extended booms or additional attachments. Reaching over buildings or around power lines can require specialized planning and equipment. Customers looking for Tree service in Greensboro NC may need a crane to reach tall or hazardous trees, and the height of those trees affects the choice of crane. Longer reach means larger machines, more fuel, and increased operator skill, all contributing to higher service costs.</p>
+  </div>
+
+  <!-- Site Accessibility and Terrain Conditions Section -->
+  <div class="container section">
+    <h2><i class="fas fa-map-marked-alt"></i> Site Accessibility and Terrain Conditions</h2>
+    <p>Where the crane will be positioned is a crucial factor in cost. A property that is easy to access typically requires less time for setup and positioning. However, uneven terrain, narrow driveways, soft ground, or tight urban spaces complicate the process. If the crane cannot be placed close to the lift site, a larger crane with more reach may be required. Sometimes, ground stabilization or matting must be added for safety. These conditions extend the time needed to complete the job and may increase the cost of Crane service in Greensboro NC.</p>
+  </div>
+
+  <!-- Time Needed for the Job Section -->
+  <div class="container section">
+    <h2><i class="fas fa-clock"></i> Time Needed for the Job</h2>
+    <p>Cranes are often billed by the hour, so the duration of the job directly impacts the overall price. A straightforward lift may take only a short amount of time, while complicated projects involving multiple lifts, repositioning, or additional rigging can take significantly longer. A crew may also need extra time for setup, safety checks, and dismantling equipment. Projects connected to tree care, such as working alongside a Tree Service near me, can involve multiple steps that extend the time required to complete the task safely.</p>
+  </div>
+
+  <!-- Equipment and Crane Type Required Section -->
+  <div class="container section">
+    <h2><i class="fas fa-cogs"></i> Equipment and Crane Type Required</h2>
+    <p>Different jobs require different types of cranes. A small boom truck may be ideal for light residential work, while large hydraulic cranes or all-terrain cranes may be necessary for heavy or complex lifts. Larger cranes typically cost more to operate because they require more fuel, maintenance, and specialized operators. When assisting with tasks such as helping with Tree Stump Removal in Greensboro NC or lifting sections after Stump Grinding in Greensboro NC, the crane type selected must be appropriate for the weight and reach involved. The more advanced the equipment, the more the service usually costs.</p>
+  </div>
+
+  <!-- Labor and Operator Expertise Section -->
+  <div class="container section">
+    <h2><i class="fas fa-hard-hat"></i> Labor and Operator Expertise</h2>
+    <p>Skilled crane operators are essential for safe and successful lifts, and their expertise is a factor in pricing. More complex jobs require more experienced operators or additional crew members to manage rigging and load control. Jobs involving tight spaces, tall structures, or hazardous materials also demand higher levels of training. When a crane is used to support a tree project, such as assisting a professional Tree service in Greensboro NC, the coordination between the crane operator and the tree crew adds value and ensures safety but can increase labor costs.</p>
+  </div>
+
+  <!-- Permit Requirements and Local Regulations Section -->
+  <div class="container section">
+    <h2><i class="fas fa-file-alt"></i> Permit Requirements and Local Regulations</h2>
+    <p>Some crane operations require permits, especially when cranes must operate in public areas, near roads, or above utility lines. These permits can include fees and approval timelines that affect the total cost. If traffic management or lane closures are required, additional expenses may apply. Regulations vary by location, and providers offering Crane service in Greensboro NC ensure compliance with all local laws. These administrative steps are essential for safety but add to the overall price of crane service.</p>
+  </div>
+
+  <!-- Weather and Environmental Conditions Section -->
+  <div class="container section">
+    <h2><i class="fas fa-cloud-sun"></i> Weather and Environmental Conditions</h2>
+    <p>Weather can influence crane operations and the associated costs. High winds, heavy rain, storms, or icy conditions may delay a project or require additional precautions. If a job is paused due to unsafe weather, the client may still incur costs for the scheduled time. In other cases, environmental conditions such as soft soil or muddy terrain may require extra stabilization measures. Crane operators must prioritize safety, and environmental challenges can increase the overall time and resources needed for the job.</p>
+  </div>
+
+  <!-- Coordination with Other Services Section -->
+  <div class="container section">
+    <h2><i class="fas fa-people-carry"></i> Coordination with Other Services</h2>
+    <p>Crane work often overlaps with other services, particularly in tree care, demolition, or construction. Coordination between crews is essential to avoid downtime and ensure safety. Working with professionals offering Tree Removal near me may require cranes to lift heavy branches or trunk sections, and timing must align with the cutting team. Similarly, crane support for Tree Stump Removal in Greensboro NC requires coordination with the cleanup process. Efficient scheduling reduces costs, while delays or miscommunication can increase them.</p>
+  </div>
+
+  <!-- Final Cost Considerations Section -->
+  <div class="container section">
+    <h2><i class="fas fa-calculator"></i> Final Cost Considerations</h2>
+    <p>No two crane jobs are exactly alike, and each service call carries its own set of challenges and requirements. Costs depend on many interconnected factors, including equipment, labor, safety measures, and site conditions. The best way to estimate the cost of Crane service in Greensboro NC is through an on-site evaluation where professionals assess the specifics of your project. By understanding the factors that influence pricing, homeowners and business owners can budget more accurately and choose providers that offer both expertise and value.</p>
+  </div>
+
+  <!-- Conclusion Section with Map -->
+  <div class="container conclusion-container">
+    <div class="conclusion-text">
+      <h2><i class="fas fa-check-circle"></i> Conclusion</h2>
+      <p>Crane service costs vary because each project has different requirements, challenges, and safety considerations. Factors such as load weight, reach, site access, time, weather, equipment type, and coordination with other services all play an essential role in determining the final price. Whether a crane is supporting tree care, construction, or structural work, choosing an experienced provider ensures that the job is done safely and efficiently. Understanding these cost influences helps you make informed decisions and ensures your project benefits from the highest level of professionalism and reliability. For professional crane services and expert guidance, contact <a href="https://sheltontreeservice.us/" style="color: #1a3d1a;"><strong>Shelton Tree Service in Greensboro NC</strong></a>.</p>
+    </div>
+    <div class="conclusion-map">
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d172210.84761042884!2d-79.81430155!3d36.095535049999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88531b81d1ea262d%3A0xe7cb83c9f0d3fbfd!2sShelton%20Tree%20Service!5e1!3m2!1sen!2s!4v1763737446920!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="container footer">
+    <p>© 2025 Shelton Tree Service. All rights reserved. | Professional Crane & Tree Care Services</p>
+    
+    <div class="contact-buttons">
+      <a href="tel:+13365551234" class="contact-btn phone">
+        <i class="fas fa-phone" class="contact-btn phone"></i> (336) 988-7318
+      </a>
+      <a href="mailto:info@premiumtreeservice.com" class="contact-btn email">
+        <i class="fas fa-envelope"></i> sheltontreeservice1@gmail.com
+      </a>
+    </div>
+    
+    <p><strong>Shelton Tree Service</strong><br>730 Westland Dr Greensboro, NC 27410, USA</p>
+    <p>Ready to get an accurate quote for your crane service project? Contact us today for a professional assessment!</p>
+  </div>
+
+</body>
+</html>
